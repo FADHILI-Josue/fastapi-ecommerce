@@ -156,7 +156,12 @@ A simple Ecommerce API built with Fast API Framework
 
    This will apply any pending database migrations.
 
-4. **Run the FastAPI development server:**
+4. **migrate the created migrations**
+   ```bash
+      alembic upgrade head
+   ```
+
+5. **Run the FastAPI development server:**
 
    ```bash
    python run.py
@@ -164,7 +169,7 @@ A simple Ecommerce API built with Fast API Framework
 
    The API will be accessible at [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
-5. **Access the Swagger UI and ReDoc:**
+6. **Access the Swagger UI and ReDoc:**
 
    - Swagger UI: [http://127.0.0.1:8000/docs/](http://127.0.0.1:8000/docs/)
    - ReDoc: [http://127.0.0.1:8000/redoc/](http://127.0.0.1:8000/redoc/)
