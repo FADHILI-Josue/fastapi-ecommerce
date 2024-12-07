@@ -1,54 +1,17 @@
+# Ecommerce API  
 
-# Ecommerce API with Fast API Framework
+A lightweight Ecommerce API built with **FastAPI**, featuring product management, user authentication, cart management, and more.
 
-A simple Ecommerce API built with Fast API Framework
+## Features  
+- Product endpoints  
+- User authentication  
+- Cart management  
+- Search and filter  
+- Account management  
+- Swagger integration  
 
-## Table of Contents
-
-- [Ecommerce API with Fast API Framework](#ecommerce-api-with-fast-api-framework)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Technologies Used](#technologies-used)
-  - [API Endpoints](#api-endpoints)
-  - [Screenshots](#screenshots)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
-
-
-## Features
-
-- **Product Endpoints:**
-	- Comprehensive CRUD operations for managing product details, covering creation, retrieval, updating, and deletion.
-- **User Authentication:**
-	- Implementation of secure user authentication using JWT (JSON Web Token) for robust access control and identity verification.
-- **Cart Management:**
-	- Robust operations for managing shopping carts, empowering users to effortlessly add, remove, or update items in their carts.
-- **Search and Filter:**
-	- Implementation of advanced search and filter functionalities to elevate the product browsing experience, allowing users to find specific information efficiently.
-- **Account Management:**
-	- User-friendly operations for managing user accounts, enabling users to retrieve, update, or delete their account information.
-- **Swagger / FastAPI Integration:**
-	- Seamless integration of Swagger UI or ReDoc for comprehensive API documentation. This ensures developers have clear and accessible documentation to understand and utilize the API effectively.
-
-
-## Technologies Used
-
-- **FastAPI:** 
-	- A modern, fast web framework for building APIs with Python 3.7+ based on standard Python type hints.
-- **PostgreSQL:** 
-	- A powerful open-source relational database management system used for data storage.
-- **JWT Authentication:** 
-	- Implementing JSON Web Token authentication for secure user authentication.
-- **Pydantic:** 
-	- A data validation and settings management library for Python, often used with FastAPI.
-- **Uvicorn:** 
-	- A lightweight ASGI server that serves FastAPI applications. It is used for running FastAPI applications in production.
-- **SQLAlchemy:** 
-	- An SQL toolkit and Object-Relational Mapping (ORM) library for Python, useful for database interactions.
-
-
+## Technologies  
+- FastAPI, PostgreSQL, JWT, Pydantic, Uvicorn, SQLAlchemy  
 
 ## API Endpoints
 
